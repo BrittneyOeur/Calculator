@@ -1,5 +1,5 @@
 # Calculator
-![Calculator](https://github.com/BrittneyOeur/Calculator/blob/main/calculator.png)
+![Calculator](https://github.com/BrittneyOeur/Calculator/blob/main/basic_calculator.png)
 
 An easy-to-use online calculator with essential functionalities, including:
 - Addition
