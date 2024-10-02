@@ -1,0 +1,81 @@
+body {
+    background-color: rgb(255, 249, 250);
+}
+
+.calculator-container {
+    background-color: rgb(238, 180, 193);
+    border-radius: 20px;
+    height: 630px;
+    width: 450px;
+    margin-top: 7%;
+    margin-left: 37%;
+    padding-top: 1px; /* Optional */
+    box-shadow: 10px 10px 29px -6px rgba(189,47,83,1);
+}
+
+.calculator-display {
+    background: white;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    height: 125px;
+    width: 406x;
+    font-size: 70px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    box-sizing: border-box;
+    text-align: right;
+}
+
+.number-on-display {
+    color: black;
+}
+
+.button-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Four equal columns */
+    grid-auto-rows: 86px; /* Set the row height */
+    gap: 3px; /* Add a gap between buttons */
+    padding: 20px;
+}
+
+.button-container button {
+    font-size: 40px;
+    width: 100%; /* Make buttons fill the grid cell */
+    height: 100%; /* Make buttons fill the grid cell */
+    border: none;
+    border-radius: 5px;
+}
+
+.bigger-button {
+    background-color: rgb(218, 71, 120);
+    grid-row: span 2;
+    height: 100%;
+}
+
+.middle-buttons {
+    background-color: rgb(247, 241, 232);
+}
+
+.middle-buttons:active {
+    background-color: rgb(255, 254, 252);
+}
+
+.right-buttons {
+    background-color: rgb(218, 71, 120);
+}
+
+.right-buttons:active {
+    background-color: rgb(241, 79, 133);
+}
+
+.top-buttons {
+    background-color: rgb(233, 146, 164);
+}
+
+.top-buttons:active {
+    background-color: rgb(250, 163, 181);
+}
