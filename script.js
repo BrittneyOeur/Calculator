@@ -142,6 +142,7 @@ buttons.forEach(button => {
             }
         }
 
+        // Able to backspace (delete recent number)
         else if (getInput == "DE") {
             // If there's content in the display
             if (display.textContent) {
@@ -180,6 +181,12 @@ buttons.forEach(button => {
 
             else {
                 display.textContent = display.textContent;
+            }
+        }
+
+        else if (getInput == "+/-") {
+            if (Number(display.textContent)) {
+                display.textContent = (Number(display.textContent) * -1).toString();
             }
         }
 
